@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        #searchBar {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        .game-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .game-list li {
+            background-color: white;
+            margin: 10px 0;
+            padding: 20px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Game List</h1>
+    </header>
+    <div class="container">
+        <input type="text" id="searchBar" placeholder="Search for a game...">
+        <ul class="game-list" id="gameList">
+            
+            <ul class="game-list" id="gameList">
+                <li data-game="games/10-minutes-till-dawn/index.html">10 Minutes Till Dawn</li>
+                <li data-game="games/1v1-lol/index.html">1v1 LOL</li>
+                <li data-game="games/2048/index.html">2048</li>
+                <li data-game="games/a-dark-room/index.html">A Dark Room</li>
+                <li data-game="games/abandoned/index.html">Abandoned</li>
+                <li data-game="games/abandoned-2/index.html">Abandoned 2</li>
+                <li data-game="games/ages-of-conflict/index.html">Ages of Conflict</li>
+                <li data-game="games/amidst-the-sky/index.html">Amidst the Sky</li>
+                <li data-game="games/another-gentlemans-adventure/index.html">Another Gentleman’s Adventure</li>
+                <li data-game="games/awesome-tanks/index.html">Awesome Tanks</li>
+                <li data-game="games/awesome-tanks-2/index.html">Awesome Tanks 2</li>
+                <li data-game="games/babel-tower/index.html">Babel Tower</li>
+                <li data-game="games/basket-random/index.html">Basket Random</li>
+                <li data-game="games/basketball-stars/index.html">Basketball Stars</li>
+                <li data-game="games/bit-life/index.html">Bit Life</li>
+                <li data-game="games/boxing-random/index.html">Boxing Random</li>
+                <li data-game="games/brawl-stars-project-laser/index.html">Brawl Stars Project Laser</li>
+                <li data-game="games/breaklock/index.html">Breaklock</li>
+                <li data-game="games/chrome-dino/index.html">Chrome Dino</li>
+                <li data-game="games/clicker-heroes/index.html">Clicker Heroes</li>
+                <li data-game="games/clicker-heroes-updated/index.html">Clicker Heroes Updated</li>
+                <li data-game="games/conways-game-of-life/index.html">Conway's Game of Life</li>
+                <li data-game="games/cookie-clicker/index.html">Cookie Clicker</li>
+                <li data-game="games/core-ball/index.html">Core Ball</li>
+                <li data-game="games/crossy-road/index.html">Crossy Road</li>
+                <li data-game="games/cut-the-rope/index.html">Cut the Rope</li>
+                <li data-game="games/dadish/index.html">Dadish</li>
+                <li data-game="games/dadish-2/index.html">Dadish 2</li>
+                <li data-game="games/dadish-3/index.html">Dadish 3</li>
+                <li data-game="games/doge-miner/index.html">Doge Miner</li>
+                <li data-game="games/doodle-jump/index.html">Doodle Jump</li>
+                <li data-game="games/drift-boss/index.html">Drift Boss</li>
+                <li data-game="games/drive-mad/index.html">Drive Mad</li>
+                <li data-game="games/duck-life-4/index.html">Duck Life 4</li>
+                <li data-game="games/dune/index.html">Dune</li>
+                <li data-game="games/eaglercraft/index.html">Eaglercraft</li>
+                <li data-game="games/eaglercraftx/index.html">EaglercraftX</li>
+                <li data-game="games/evowars/index.html">EvoWars</li>
+                <li data-game="games/filelist/index.html">Filelist.txt</li>
+                <li data-game="games/fireboy-and-watergirl/index.html">Fireboy and Watergirl</li>
+                <li data-game="games/fireboy-and-watergirl-2/index.html">Fireboy and Watergirl 2</li>
+                <li data-game="games/fireboy-and-watergirl-3/index.html">Fireboy and Watergirl 3</li>
+                <li data-game="games/fireboy-and-watergirl-4/index.html">Fireboy and Watergirl 4</li>
+                <li data-game="games/flappy-bird/index.html">Flappy Bird</li>
+                <li data-game="games/flash/index.html">Flash</li>
+                <li data-game="games/friday-night-funkin/index.html">Friday Night Funkin'</li>
+                <li data-game="games/geometry-dash-lite/index.html">Geometry Dash Lite</li>
+                <li data-game="games/getaway-shootout/index.html">Getaway Shootout</li>
+                <li data-game="games/gons-io/index.html">Gons.io</li>
+                <li data-game="games/gunspin/index.html">GunSpin</li>
+                <li data-game="games/hextris/index.html">Hextris</li>
+                <li data-game="games/idle-breakout/index.html">Idle Breakout</li>
+                <li data-game="games/incremancer/index.html">Incremancer</li>
+                <li data-game="games/maptroid/index.html">Maptroid</li>
+                <li data-game="games/mario-game/index.html">Mario Game</li>
+                <li data-game="games/monkey-mart/index.html">Monkey Mart</li>
+                <li data-game="games/motox3m/index.html">Moto X3M</li>
+                <li data-game="games/n-gon/index.html">N-Gon</li>
+                <li data-game="games/n-step-steve-part-1/index.html">N-Step Steve Part 1</li>
+                <li data-game="games/n-step-steve-part-2/index.html">N-Step Steve Part 2</li>
+                <li data-game="games/ovo/index.html">OVO</li>
+                <li data-game="games/particle-clicker/index.html">Particle Clicker</li>
+                <li data-game="games/pcraft/index.html">PCraft</li>
+                <li data-game="games/planet-life/index.html">Planet Life</li>
+                <li data-game="games/precision-client/index.html">Precision Client</li>
+                <li data-game="games/progress-knight-quest/index.html">Progress Knight Quest</li>
+                <li data-game="games/progress-knight-reborn/index.html">Progress Knight Reborn</li>
+                <li data-game="games/pull-of-war/index.html">Pull of War</li>
+                <li data-game="games/reach-the-core/index.html">Reach the Core</li>
+                <li data-game="games/restless-wing-syndrome/index.html">Restless Wing Syndrome</li>
+                <li data-game="games/retro-bowl/index.html">Retro Bowl</li>
+                <li data-game="games/retro-bowl-old/index.html">Retro Bowl Old</li>
+                <li data-game="games/rift-shift/index.html">Rift Shift</li>
+                <li data-game="games/rooftop-snipers/index.html">Rooftop Snipers</li>
+                <li data-game="games/rookie-bowman/index.html">Rookie Bowman</li>
+                <li data-game="games/run-3/index.html">Run 3</li>
+                <li data-game="games/sandspiel/index.html">Sandspiel</li>
+                <li data-game="games/scuba-bear/index.html">Scuba Bear</li>
+                <li data-game="games/slope/index.html">Slope</li>
+                <li data-game="games/smart-ball/index.html">Smart Ball</li>
+                <li data-game="games/smash-karts/index.html">Smash Karts</li>
+                <li data-game="games/stickman-hook/index.html">Stickman Hook</li>
+                <li data-game="games/subway-surfers/index.html">Subway Surfers</li>
+                <li data-game="games/subway-surfers-ny/index.html">Subway Surfers NY</li>
+                <li data-game="games/tanuki-sunset/index.html">Tanuki Sunset</li>
+                <li data-game="games/temple-run-2/index.html">Temple Run 2</li>
+                <li data-game="games/the-final-earth/index.html">The Final Earth</li>
+                <li data-game="games/the-treasure/index.html">The Treasure</li>
+                <li data-game="games/there-is-no-game/index.html">There Is No Game</li>
+                <li data-game="games/time-shooter/index.html">Time Shooter</li>
+                <li data-game="games/time-shooter-3/index.html">Time Shooter 3</li>
+                <li data-game="games/tiny-fishing/index.html">Tiny Fishing</li>
+                <li data-game="games/trace/index.html">Trace</li>
+                <li data-game="games/tunnel-rush/index.html">Tunnel Rush</li>
+                <li data-game="games/two-ball-3d/index.html">Two Ball 3D</li>
+                <li data-game="games/vex-3/index.html">Vex 3</li>
+                <li data-game="games/vex-4/index.html">Vex 4</li>
+                <li data-game="games/vex-5/index.html">Vex 5</li>
+                <li data-game="games/vex-6/index.html">Vex 6</li>
+                <li data-game="games/vex-7/index.html">Vex 7</li>
+                <li data-game="games/w-flash/index.html">W Flash</li>
+                <li data-game="games/web-osu/index.html">Web Osu</li>
+                <li data-game="games/where-is-the-water/index.html">Where Is the Water</li>
+                <li data-game="games/x-trench-run/index.html">X Trench Run</li>
+                <li data-game="games/yohoho/index.html">Yohoho</li>
+            </ul>
+            
+        </ul>
+    </div>
+    <script>
+        // Search functionality
+        const searchBar = document.getElementById('searchBar');
+        const gameList = document.getElementById('gameList');
+        const games = gameList.getElementsByTagName('li');
+
+        searchBar.addEventListener('input', function() {
+            const filter = searchBar.value.toLowerCase();
+            for (let i = 0; i < games.length; i++) {
+                const gameTitle = games[i].textContent || games[i].innerText;
+                if (gameTitle.toLowerCase().indexOf(filter) > -1) {
+                    games[i].style.display = "";
+                } else {
+                    games[i].style.display = "none";
+                }
+            }
+        });
+
+        // Click event to navigate to game page
+        gameList.addEventListener('click', function(e) {
+            if (e.target && e.target.nodeName === "LI") {
+                const gamePage = e.target.getAttribute('data-game');
+                window.location.href = gamePage;
+            }
+        });
+    </script>
+</body>
+</html>
